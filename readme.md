@@ -71,20 +71,17 @@ A secure, modular, and role-based backend API designed to manage a parcel delive
     BCRYPT_SALT_ROUND=12
     ```
 
-4.  **Run the application:**
-    - For development mode with live reloading:
-      ```bash
+4.  **Run the application:** - For development mode with live reloading:
+    `bash
       npm run dev
-      ```
-    - To build for production:
-      ```bash
+      ` - To build for production:
+    `bash
       npm run build
-      ```
-    - To start the production server:
-      `bash
+      ` - To start the production server:
+    `bash
 npm run start
 `
-      The server will be running at `http://localhost:8080`.
+    The server will be running at `http://localhost:8080`.
 
 ---
 
@@ -92,9 +89,6 @@ npm run start
 
 - `npm run dev`: Starts the development server using `ts-node-dev`.
 - `npm run build`: Compiles the TypeScript code into JavaScript in the `dist` folder.
-- `npm run start`: Starts the production server from the compiled code.
-- `npm run lint`: Lints the codebase using ESLint.
-- `npm run lint:fix`: Attempts to automatically fix linting issues.
 
 ---
 
