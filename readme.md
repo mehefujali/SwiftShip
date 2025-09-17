@@ -4,6 +4,11 @@ A secure, modular, and role-based backend API designed to manage a parcel delive
 
 ---
 
+## Admin
+
+email: mehefujali@gmail.com
+password: password123
+
 ## 🚀 Key Features
 
 - **JWT-Based Authentication:** Secure login system using `accessToken` and cookie-based `refreshToken` for persistent sessions.
